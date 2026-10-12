@@ -1,4 +1,13 @@
 {
   "format": 1,
-  "available": false
+  "version": "0.2.2",
+  "size": 9309,
+  "sha256": "d09d205454e4fd2821e04268e0857f4b50422c01e6b1e9fe3a167f289f132f06",
+  "download_url": "https://lilith3777.github.io/rei-ai-updates/releases/0.2.2/patch.zip",
+  "files": [
+    "native_companion/PortableRuntime.cs",
+    "native_companion/OriginalRuntime.cs",
+    "native_companion/InsetRuntime.cs",
+    "tools/launch-native-companion.ps1"
+  ]
 }
