@@ -9,5 +9,32 @@
     "native_companion/OriginalRuntime.cs",
     "native_companion/InsetRuntime.cs",
     "tools/launch-native-companion.ps1"
-  ]
+  ],
+  "upgrade": {
+    "from_version": "0.2.2",
+    "feed": {
+      "format": 1,
+      "version": "0.2.3",
+      "size": 29020,
+      "sha256": "39454fe031de8feeef5dd3fb77eb5b8be0ed77b57e6f93b444aeceb9a96623b2",
+      "download_url": "https://lilith3777.github.io/rei-ai-updates/releases/0.2.3/patch.zip",
+      "files": [
+        "tools/compatibility/NativeSaveObserverProbe.cs",
+        "tools/compatibility/NativeLoadMonitor.cs",
+        "tools/compatibility/NativeNumericStateProbe.cs",
+        "native_companion/ServiceConfig.cs",
+        "native_companion/ServiceSettingsDialog.cs",
+        "native_companion/Launcher.cs",
+        "native_companion/bridge.py",
+        "native_companion/endpoint_policy.py"
+      ],
+      "upgrade": {
+        "from_version": "0.2.3",
+        "feed": {
+          "format": 1,
+          "available": false
+        }
+      }
+    }
+  }
 }
